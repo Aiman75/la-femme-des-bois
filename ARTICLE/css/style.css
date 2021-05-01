@@ -1,0 +1,60 @@
+html {
+    font-family: "The Antiqua B",Georgia,sans-serif;
+    /* font-family: sans-serif; */
+    font-size: 1em;
+    scroll-behavior: smooth;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+}
+
+img {
+    max-width: 1000px;
+}
+
+.top {
+    position: fixed;
+    transform: translate(1150px, -80px);
+    z-index: 8;
+}
+
+.top img {
+    width: 100px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.article {
+    position: absolute;
+    text-align: left;
+    max-width: 600px;
+    padding: 10px 50px;
+    background: #FFF;
+    font-size: 1.5em;
+    transform: translateY(-50px);
+    z-index: 3;
+}
+
+.article-title {
+    font-family:  "Marr Sans Condensed",DINCondensed-Bold,"Roboto Condensed","Arial Narrow",sans-serif;
+    font-size: 2.4em;
+    font-weight: 1000 !important;
+    text-align: center;
+}
+
+p {
+    letter-spacing: 1px;
+    color: #383f4e;
+    text-align: left;
+    line-height: 2rem;
+}
+
+h3 {
+    font-family: "Marr Sans",Helvetica,Arial,Roboto,sans-serif;
+}
